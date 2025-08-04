@@ -1,0 +1,29 @@
+📗 Usage Document: Screenshot Capturer Tool
+
+1. Installation Requirements
+Python 3.x installed
+Required packages:
+
+2. How to Run
+Save the script as screenshot_capturer.py
+Run using:
+
+3. Features & Instructions
+a. Automatic Screenshot
+Press the Print Screen key.
+Screenshot is saved to C:\Temp\screenshot and listed in the app.
+b. Manual Screenshot
+Click "Capture Screenshot" button.
+c. Print Screenshot
+Select a screenshot from the list.
+Click "Print Selected" to send it to the default printer.
+d. Quit Application
+Click "Quit" to close the app.
+e. Startup Behavior
+App minimizes automatically.
+Runs silently in the background.
+
+4. Troubleshooting
+Keyboard module requires admin privileges: Run the script as administrator.
+Print not working: Ensure a default printer is configured.
+Permission errors: Ensure C:\Temp\screenshot is writable.
