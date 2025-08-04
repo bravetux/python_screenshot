@@ -1,5 +1,5 @@
-design_md_content = """# python_screenshot
-Minimal Python Screenshot Utility - PrintScn Captures to Temp Folder generated using GenAI
+
+# Minimal Python Screenshot Utility - PrintScn Captures to Temp Folder generated using GenAI
 
 ## 📘 Design Document: Screenshot Capturer Tool
 
