@@ -1,5 +1,3 @@
-# Convert the provided design document into Markdown format and save it as a .md file
-
 design_md_content = """# python_screenshot
 Minimal Python Screenshot Utility - PrintScn Captures to Temp Folder generated using GenAI
 
