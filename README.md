@@ -57,11 +57,5 @@ Provides buttons for:
 - Only supports JPEG format.
 - No image preview or deletion options.
 - Works only on Windows due to `win32api`.
-"""
 
-# Save the markdown content to a file
-with open("Screenshot_Capturer_Design_Document.md", "w") as md_file:
-    md_file.write(design_md_content)
-
-print("Markdown file 'Screenshot_Capturer_Design_Document.md' has been created successfully.")
 
