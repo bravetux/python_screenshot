@@ -1,29 +1,44 @@
-📗 Usage Document: Screenshot Capturer Tool
+from pathlib import Path
 
-1. Installation Requirements
-Python 3.x installed
-Required packages:
+# Define the content of the usage document
+usage_md_content = """# 📗 Usage Document: Screenshot Capturer Tool
 
-2. How to Run
-Save the script as screenshot_capturer.py
-Run using:
+## 1. Installation Requirements
+- Python 3.x installed
+- Required packages:
 
-3. Features & Instructions
-a. Automatic Screenshot
-Press the Print Screen key.
-Screenshot is saved to C:\Temp\screenshot and listed in the app.
-b. Manual Screenshot
-Click "Capture Screenshot" button.
-c. Print Screenshot
-Select a screenshot from the list.
-Click "Print Selected" to send it to the default printer.
-d. Quit Application
-Click "Quit" to close the app.
-e. Startup Behavior
-App minimizes automatically.
-Runs silently in the background.
+## 2. How to Run
+- Save the script as `screenshot_capturer.py`
+- Run using:
 
-4. Troubleshooting
-Keyboard module requires admin privileges: Run the script as administrator.
-Print not working: Ensure a default printer is configured.
-Permission errors: Ensure C:\Temp\screenshot is writable.
+## 3. Features & Instructions
+### a. Automatic Screenshot
+- Press the Print Screen key.
+- Screenshot is saved to `C:\\Temp\\screenshot` and listed in the app.
+
+### b. Manual Screenshot
+- Click "Capture Screenshot" button.
+
+### c. Print Screenshot
+- Select a screenshot from the list.
+- Click "Print Selected" to send it to the default printer.
+
+### d. Quit Application
+- Click "Quit" to close the app.
+
+### e. Startup Behavior
+- App minimizes automatically.
+- Runs silently in the background.
+
+## 4. Troubleshooting
+- Keyboard module requires admin privileges: Run the script as administrator.
+- Print not working: Ensure a default printer is configured.
+- Permission errors: Ensure `C:\\Temp\\screenshot` is writable.
+"""
+
+# Save the content to a Markdown file
+output_path = Path("Screenshot_Capturer_Usage_Document.md")
+output_path.write_text(usage_md_content, encoding="utf-8")
+
+print(f"Markdown file saved as: {output_path.name}")
+
